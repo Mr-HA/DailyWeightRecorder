@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, DailyWeightRecorderActivity!</string>
-    <string name="app_name">DailyWeightRecorder</string>
+    <string name="hello">Date:  </string>
+    <string name="app_name">Daily Weight Recorder</string>
+    <string name="Weight">Weight:   </string>
+    <string name="btn_date_change">Change Date</string>
+    <string name="Date">Date: </string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnOne">1</string>
+    <string name="btnTwo">2</string>
+    <string name="btnThree">3</string>
+    <string name="btnFour">4</string>
+    <string name="btnFive">5</string>
+    <string name="btnSix">6</string>
+    <string name="btnSeven">7</string>
+    <string name="btnEight">8</string>
+    <string name="btnNine">9</string>
+    <string name="btnZero">0</string>
+    <string name="btnDot">.</string>
+    <string name="btnDel">Del</string>
+    <string name="strList">Query</string>
+    <string name="strRecord">Record</string>
+    <string name="strAbout">About</string>
+    <string name="app_about_msg">Record the weight every day</string>
+    <string name="btnOk">OK</string>
+    <string name="btnLast">&lt;</string>
+    <string name="btnNext">&gt;</string>
+    <string name="gridViewColumn">3</string>
+    <string name="btnClear">Clear</string>
 
 </resources>
