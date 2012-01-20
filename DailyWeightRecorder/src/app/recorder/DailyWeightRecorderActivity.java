@@ -6,7 +6,6 @@ import java.util.HashMap;
 
 import app.recorder.DBConnection;
 import app.recorder.R;
-import app.recorder.DailyWeightRecorderActivity.WeightSchema;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -45,7 +44,8 @@ public class DailyWeightRecorderActivity extends Activity {
 	protected static final int GRIDVIEW_COLUMN = 5;
 	protected static final int MENU_ITEM_LIST = Menu.FIRST;
 	protected static final int MENU_ITEM_RECORD = Menu.FIRST+1;
-	protected static final int MENU_ITEM_ABOUT = Menu.FIRST+2;
+	protected static final int MENU_ITEM_ACCOUNT = Menu.FIRST+2;
+	protected static final int MENU_ITEM_ABOUT = Menu.FIRST+3;
 	private int intYear, intMonth, intDay;
 	private String strDate,strWeight;
 	private TextView dateText, textWeight;
@@ -69,6 +69,7 @@ public class DailyWeightRecorderActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
 		menu.add(0,MENU_ITEM_LIST,0,R.string.strList);
 		menu.add(0,MENU_ITEM_RECORD,0,R.string.strRecord);
+		menu.add(0,MENU_ITEM_ACCOUNT,0,R.string.strAccount);
 		menu.add(0,MENU_ITEM_ABOUT,0,R.string.strAbout);
 		return super.onCreateOptionsMenu(menu);
 		
@@ -80,6 +81,8 @@ public class DailyWeightRecorderActivity extends Activity {
 		{
 			case MENU_ITEM_ABOUT:
 				openOptionsDialog();
+				break;
+			case MENU_ITEM_ACCOUNT:
 				break;
 			case MENU_ITEM_LIST:
 				// jumpToList();

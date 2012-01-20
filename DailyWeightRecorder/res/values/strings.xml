@@ -22,11 +22,19 @@
     <string name="strList">Query</string>
     <string name="strRecord">Record</string>
     <string name="strAbout">About</string>
+    <string name="strAccount">Account</string>
     <string name="app_about_msg">Record the weight every day</string>
     <string name="btnOk">OK</string>
     <string name="btnLast">&lt;</string>
     <string name="btnNext">&gt;</string>
     <string name="gridViewColumn">3</string>
     <string name="btnClear">Clear</string>
+    <string name="strUser">Current User: </string>
+    <string name="strUserName">UserName</string>
+    <string name="btnUserAdd">Add</string>
+    <string name="btnUserEdit">Edit</string>
+    <string name="btnUserDelete">Delete</string>
+    <string name="btnUserSelect">Select</string>
+    
 
 </resources>
